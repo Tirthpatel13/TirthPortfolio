@@ -8,14 +8,12 @@ const About = () => {
                 <p className='text-4xl font bold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eius aperiam ipsum est delectus consequatur consectetur voluptatem ad. Incidunt rerum explicabo quidem quia dolore cupiditate recusandae totam deleniti labore vel iste quo, at saepe ex. Quae fugit ad natus dolorem quibusdam alias sit quos sint praesentium eius. Pariatur, facere maxime?
-            </p>
+            Aspiring Computer Science student seeking to crack the code for innovation and creativity . Driven by a knack for solving problems and crafting elegant solutions that leave a lasting impact.</p>
 
             <br />
 
             <p className='text-xl'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, tenetur? Necessitatibus id consequatur odit minima cupiditate iste mollitia atque tempora molestias exercitationem modi, deleniti incidunt, architecto odio porro, praesentium quod dolorum distinctio iusto! Sapiente, perferendis molestiae nisi nam, quisquam ea officia dolore architecto eveniet iste veniam commodi, itaque harum quia.
-            </p>
+            With strong analytical abilities gained via hands-on projects and courses, I thrive in dynamic workplaces where I can work with peers to solve problems front on. I am eager to offer my skills and experience to a forward-thinking organization where I may continue to learn and develop as a technology professional. </p>
         </div>
     </div>
   )

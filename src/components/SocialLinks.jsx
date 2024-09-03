@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https://www.linkedin.com/in/your-linkedin-profile/',
+            href: 'https://www.linkedin.com/in/tirth-p-4a4a84179/',
             style: 'rounded-tr-md',
             target: '_blank',
         },
@@ -24,7 +24,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30} />
                 </>
             ),
-            href: 'https://www.github.com',
+            href: 'https://github.com/Tirthpatel13?tab=repositories',
             target: '_blank',
         },
         {
