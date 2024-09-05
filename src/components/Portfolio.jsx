@@ -1,37 +1,43 @@
-import React from 'react'
-import arrayDestruct from '../images/portfolio/arrayDestruct.jpg';
+import React from 'react';
 import installNode from '../images/portfolio/installNode.jpg';
 import navbar from '../images/portfolio/navbar.jpg';
 import reactParallax from '../images/portfolio/reactParallax.jpg';
 import reactSmooth from '../images/portfolio/reactSmooth.jpg';
 import reactWeather from '../images/portfolio/reactWeather.jpg';
+import Renew_Wheels from '../images/project/Renew_Wheels.png';
 
 const Portfolio = () => {
 
     const portfolios=[
         {
             id:1,
-            src : arrayDestruct
+            src : Renew_Wheels,
+            link: 'https://github.com/Tirthpatel13/EECS4413_Group_Project_WS' // Replace with actual link
         },
         {
             id:2,
-            src : reactParallax
+            src : reactParallax,
+            link: 'https://github.com/Tirthpatel13/EECS1012_CodeBreakerGame_F' // Replace with actual link
         },
         {
             id:3,
-            src : navbar
+            src : navbar,
+            link: 'https://github.com/Tirthpatel13/TirthPortfolio/tree/test-branch' // Replace with actual link
         },
         {
             id:4,
-            src : reactSmooth
+            src : reactSmooth,
+            link: 'https://github.com/Tirthpatel13/Car-price-Prediction' // Replace with actual link
         },
         {
             id:5,
-            src : installNode
+            src : installNode,
+            link: 'https://github.com/Tirthpatel13/JobFresher' // Replace with actual link
         },
         {
             id:6,
-            src : reactWeather
+            src : reactWeather,
+            link: 'https://github.com/yourusername/reactWeather' // Replace with actual link
         },
     ];
 
@@ -46,17 +52,22 @@ const Portfolio = () => {
             </div>
             <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-8'>
                 {
-                    portfolios.map(({id, src}) => (
+                    portfolios.map(({id, src, link}) => (
                     
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img src={src} alt="" className='rounded-md duration-200 hover-scale-105' />
                             <div className='flex items-center justify-center'>
                                 <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <button 
+                                    className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'
+                                    onClick={() => window.open(link, '_blank')}
+                                >
+                                    Code
+                                </button>
                             </div>
                         </div>
 
-                   
+                        
                     ))
                 }
             </div>

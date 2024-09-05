@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h6 className="text-3xl font-Raleway ml-2">TIRTH PATEL</h6>
+        <h2 className="px-6 cursor-pointer capitalize font-medium text-white-500 hover:scale-105 duration-200">TIRTH PATEL</h2>
       </div>
 
       <ul className="hidden md:flex">
