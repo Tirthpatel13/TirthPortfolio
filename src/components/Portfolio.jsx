@@ -51,7 +51,7 @@ const Portfolio = () => {
     ];
 
     return (
-        <div name="portfolio" className="bg-gradient-to-b from-black to-gray-900 w-full text-white min-h-screen">
+        <div name="portfolio" className="bg-gradient-to-b from-black to-gray-900 w-full text-white md-h-screen pb-20">
             <div className="flex flex-col justify-center items-center max-w-screen-lg mx-auto h-full text-center">
                 <div className="pb-8">
                     <h2 className="text-4xl font-bold border-b-4 border-gray-500 inline">Portfolio</h2>
