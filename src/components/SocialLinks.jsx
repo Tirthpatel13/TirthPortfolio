@@ -44,7 +44,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/images/heroImage.jpeg",
+            href: "/Tirth_Patel_Resume.pdf",
             style: "rounded-br-md",
             download: true,
         },

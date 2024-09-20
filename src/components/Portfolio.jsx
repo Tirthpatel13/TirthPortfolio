@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import navbar from '../images/portfolio/navbar.jpg';
+import Portfolio_1 from '../images/project/Portfolio.png';
 import Car_Price from '../images/project/Car_Price_Prediction.png';
 import Renew_Wheels from '../images/project/Renew_Wheels.png';
 import Code_breaker_1 from '../images/project/Code_breaker_1.png';
@@ -29,7 +29,7 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: navbar,
+            src: Portfolio_1,
             title: 'Portfolio Navbar',
             description: `Responsive navigation bar created with React and Tailwind CSS, showcasing personal projects and skills.`,
             link: 'https://github.com/Tirthpatel13/TirthPortfolio/tree/test-branch'

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../images/heroImage.jpeg';
+import Image from '../images/MY_Photo.jpg';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import TypingEffect from 'react-typing-effect';
@@ -9,14 +9,18 @@ const Home = () => {
         <div name="home" className="min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white flex items-center">
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row space-y-8 md:space-y-0">
                 
-                {/* Left Section: Profile Image */}
-                <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-                    <img 
-                        src={Image} 
-                        alt="my profile" 
-                        className="rounded-full w-52 h-52 md:w-64 md:h-64 object-cover shadow-lg shadow-cyan-500/50"
-                    />
-                </div>
+               {/* Left Section: Profile Image */}
+<div className="w-full md:w-1/2 flex justify-center md:justify-start">
+    <div className="relative w-52 h-52 md:w-64 md:h-64">
+        <img 
+            src={Image} 
+            alt="my profile" 
+            className="rounded-full w-full h-full object-cover shadow-lg shadow-cyan-500/50"
+            style={{ objectPosition: 'center top' }}
+        />
+    </div>
+</div>
+
 
                 {/* Right Section: Text and Buttons */}
                 <div className="flex flex-col justify-center items-center md:items-start h-full text-center md:text-left md:w-1/2">
@@ -39,7 +43,8 @@ const Home = () => {
                     {/* Buttons */}
                     <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
                         <a 
-                            href="#" 
+                            href="/Tirth_Patel_Resume.pdf"
+                            download="Tirth_Patel_Resume"
                             className="px-6 py-3 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white hover:scale-105 transition duration-200"
                         >
                             Download CV
