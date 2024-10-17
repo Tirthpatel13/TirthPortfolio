@@ -24,7 +24,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30} />
                 </>
             ),
-            href: 'https://github.com/Tirthpatel13?tab=repositories',
+            href: 'https://github.com/Tirthpatel13',
             target: '_blank',
         },
         {
