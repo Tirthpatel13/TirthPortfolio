@@ -4,6 +4,7 @@ import Car_Price from '../images/project/Car_Price_Prediction.png';
 import Renew_Wheels from '../images/project/Renew_Wheels.png';
 import Code_breaker_1 from '../images/project/Code_breaker_1.png';
 import Job_Finder_1 from '../images/project/JobFinder_2.png';
+import Flappy_Bird from '../images/project/Flappy_Bird.png';
 
 const Portfolio = () => {
     const [activeDesc, setActiveDesc] = useState(null);
@@ -30,7 +31,7 @@ const Portfolio = () => {
         {
             id: 3,
             src: Portfolio_1,
-            title: 'Portfolio Navbar',
+            title: 'My Portfolio',
             description: `Responsive navigation bar created with React and Tailwind CSS, showcasing personal projects and skills.`,
             link: 'https://github.com/Tirthpatel13/TirthPortfolio/tree/test-branch'
         },
@@ -47,6 +48,13 @@ const Portfolio = () => {
             title: 'Car Price Prediction',
             description: `Machine learning model predicting car prices using Python and Jupyter Notebook, optimizing with regression algorithms.`,
             link: 'https://github.com/Tirthpatel13/Car-price-Prediction'
+        },
+        {
+            id: 6,
+            src: Flappy_Bird,
+            title: 'Flappy Bird',
+            description: `2D side-scrolling game in Java where the player controls a bird to navigate between pipes using Java Swing for graphics and input handling.`,
+            link: 'https://github.com/Tirthpatel13/Flappy_Bird'
         },
     ];
 
