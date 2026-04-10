@@ -43,7 +43,7 @@ const Home = () => {
                     {/* Buttons */}
                     <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
                         <a 
-                            href="/Tirth_Patel_Resume.pdf"
+                            href="/Tirth_resume.pdf"
                             download="Tirth_Patel_Resume"
                             className="px-6 py-3 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white hover:scale-105 transition duration-200"
                         >
