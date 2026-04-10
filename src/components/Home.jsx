@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../images/MY_Photo.jpg';
+import Image from '../images/Tirth_Photo.jpg';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import TypingEffect from 'react-typing-effect';
@@ -11,14 +11,35 @@ const Home = () => {
                 
                {/* Left Section: Profile Image */}
 <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-    <div className="relative w-52 h-52 md:w-64 md:h-64">
+  <div className="group" style={{ perspective: "1000px" }}>
+    
+    <div 
+      className="relative transition duration-500 transform group-hover:scale-105"
+      style={{
+        transformStyle: "preserve-3d"
+      }}
+    >
+      
+      {/* Glow */}
+      <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-blue-500 to-purple-500 blur-md opacity-70 group-hover:opacity-100 transition duration-500"></div>
+
+      {/* Image */}
+      <div 
+        className="relative w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-gray-900 transition duration-500"
+        style={{
+          transform: "rotateX(0deg) rotateY(0deg)"
+        }}
+      >
         <img 
-            src={Image} 
-            alt="my profile" 
-            className="rounded-full w-full h-full object-cover shadow-lg shadow-cyan-500/50"
-            style={{ objectPosition: 'center top' }}
+          src={Image} 
+          alt="my profile" 
+          className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+          style={{ objectPosition: 'center 20%' }}
         />
+      </div>
+
     </div>
+  </div>
 </div>
 
 
