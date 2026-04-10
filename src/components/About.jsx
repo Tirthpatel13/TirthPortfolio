@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from '../images/heroImage.jpeg'; // Replace with your actual profile image path
+ // Replace with your actual profile image path
 
 const About = () => {
   return (

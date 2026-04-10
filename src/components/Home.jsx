@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from '../images/Tirth_Photo.jpg';
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import TypingEffect from 'react-typing-effect';
 
